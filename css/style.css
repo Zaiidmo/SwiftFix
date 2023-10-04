@@ -85,6 +85,11 @@ a:focus {
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #ff8a1d;
 }
 
 .header_section .header_top {
@@ -109,9 +114,6 @@ a:focus {
   color: #ff8a1d;
 }
 
-.header_section .header_bottom {
-  padding: 10px 0;
-}
 
 .navbar-brand {
   padding: 0;
@@ -129,7 +131,8 @@ a:focus {
 
 .custom_nav-container {
   padding: 0;
-}
+} 
+
 
 .custom_nav-container .navbar-nav {
   margin-left: auto;
@@ -137,7 +140,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 10px 25px;
-  color: #000000;
+  color: #000;
   text-align: center;
 }
 
@@ -428,12 +431,24 @@ a:focus {
   color: #ffffff;
 }
 
+.hero_img {
+  background-color: #d1e3ff;
+  height: 60vh;
+  background-image: url("../images/About.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+/* Centered text */
+
 .about_section .detail-box a:hover {
   background-color: transparent;
   color: #0355cc;
 }
 
 .about_section .img-box img {
+  display: block;
   width: 100%;
 }
 
@@ -743,7 +758,7 @@ a:focus {
   background-color: #ffffff;
   padding: 5px 15px;
 }
-.info_section .ContactUs {
+.info_section .social-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
