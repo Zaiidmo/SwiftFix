@@ -413,6 +413,7 @@ a:focus {
 .about_section .detail-box h2 {
   text-transform: uppercase;
   font-weight: bold;
+  text-align: center;
 }
 
 .about_section .detail-box p {
@@ -430,6 +431,7 @@ a:focus {
   border-radius: 2px;
   color: #ffffff;
 }
+/*Conver Images Styles*/
 
 .hero_img {
   background-color: #d1e3ff;
@@ -440,11 +442,35 @@ a:focus {
   background-size: cover;
   
 }
+
+.Contact_img{
+  margin: 0;
+  padding: 0;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/Contact.jpg'); 
+  background-size: cover;
+  color: white; 
+  font-family: monospace; 
+  text-align: center;
+
+}
+
+.Services_img {
+  height: 60vh;
+  background-image: url(../images/Services.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 /* Centered text */
 
 .about_section .detail-box a:hover {
   background-color: transparent;
   color: #0355cc;
+  text-align: center;
 }
 
 .about_section .img-box img {
@@ -713,18 +739,14 @@ a:focus {
   color: #ffffff;
   margin-top: 15px;
 }
-
+.contact_section h3{
+  font-style: oblique;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
 .contact_section button:hover {
   background-color: transparent;
   color: #0355cc;
-}
-
-.contact_section .map_container {
-  height: 360px;
-}
-
-.contact_section .map_container .map {
-  height: 100%;
 }
 
 .info_section {
@@ -732,6 +754,7 @@ a:focus {
   background-color: #0a0f43;
   text-align: center;
   color: #fff;
+  margin-top: 15px;
 }
 
 .info_section h4 {
