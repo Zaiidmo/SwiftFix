@@ -12,7 +12,8 @@
         <meta name="author" content="" >
       
         <title>About Us</title>
-      
+        <link rel="icon" href="../SwiftFix/images/Favicon.ico" type="image/x-icon">
+
         <!-- slider stylesheet -->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" >
         <!-- bootstrap core css -->
@@ -88,17 +89,32 @@
         <section class="contact_section layout_padding">
             <div class="container">
               <h3> Let's have a conversation </h3>
-              <form action="tel:0666666666">
+              <form action="emailto:support@swiftfix.com">
                 <div>
-                <input type="text" placeholder="Name" >
+                  <p>Name</p>
+                  <input type="text" placeholder="First Name" >
                 </div>
                 <div>
+                <input type="text" placeholder="Last Name" >
+                </div>
+                <div>
+                  <p>Phone Number</p>
                 <input type="text" placeholder="Phone Number" >
                 </div>
                 <div>
+                  <p>Email Address</p>
                 <input type="email" placeholder="Email" >
                 </div>
+                <p>Select your issue</p>
+                <select name="Issue" id="Issue">
+                  <option value="Select">Select your issue</option>
+                  <option value="Communication">Communication issue</option>
+                  <option value="Appointement">Appointement issue</option>
+                  <option value="Equipements">Equipements issue</option>
+                  <option value="Report">Report someone</option>
+                </select>
                 <div>
+                  <p>Message</p>
                 <input type="text" class="message-box" placeholder="Message" >
                 </div>
                 <div class="d-flex ">
